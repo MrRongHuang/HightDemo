@@ -31,10 +31,6 @@ class MainActivity : AppCompatActivity() {
         tvShow.setOnClickListener {
             startActivity(Intent(this,MainActivity2::class.java))
             Log.e("xxx", "setOnClickListener:")
-
-
-
-
             Log.e("xxx", "UUID ==  ${UUID.randomUUID()}")
 
         }
